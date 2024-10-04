@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(assets/images/bg.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    background-size: max(1200px, 100vw);
+
+}
+
+.main.box {
+    width: 100%;
+    height: 100vh;
+    opacity: 0.69;
+    background-color: black;
+    top: 0;
+
+}
+
+nav {
+    max-width: 70vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 62px;
+    padding-top: 15px;
+}
+
+nav img {
+
+    height: 52px;
+    width: 175px;
+    z-index: 10;
+    position: relative;
+    border-radius: 7px;
+}
+
+nav button {
+    z-index: 10;
+    position: relative;
+}
+
+
+
+.hero {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    position: relative;
+    flex-direction: column;
+    height: 25%;
+    gap: 20px;
+
+    padding-top: 250px;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    z-index: 100;
+}
+
+.hero> :nth-child(1) {
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+
+}
+
+.hero>:nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero>:nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.upl {
+    padding-top: 0;
+    margin-bottom: 0%;
+}
+
+.btn {
+    background-color: white;
+    padding: 3px 9px;
+    background-color: rgba(23, 23, 23, 0.9);
+    color: aliceblue;
+    border-radius: 7px;
+    border-color: rgba(255, 255, 255, 0.311);
+    padding: 10px 29px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-red {
+    background-color: red;
+    color: aliceblue;
+    padding: 3px 24px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 400px;
+}
+
+.btn-red-sn {
+    background-color: red;
+    color: aliceblue;
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: 400px;
+
+
+}
+
+input {
+    padding: 3px 24px;
+    border-radius: 7px;
+    font-size: 20px;
+    background-color: rgba(23, 23, 23, 0.9);
+    border-color: white;
+    color: aliceblue;
+}
+
+.first {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 70vw;
+}
+
+.sec1 {
+  
+    position: relative;
+}
+
+section img {
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+}
+
+section video {
+    width: 30vw;
+    position: absolute;
+    left: 56px;
+    top: 62;
+    width: 21vw;
+}
+
+.first>div :first-child {
+    font-size: 48px;
+}
+
+.first>div :nth-child(3) {
+    font-size: 24px;
+}
+
+.sep {
+    background-color: rgba(128, 128, 128, 0.615);
+    position: relative;
+    z-index: 100;
+    height: 3px;
+}
+
+section {
+    display: flex;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+}
+
+.faq :first-child {
+    text-align: center;
+    font-size: 48px;
+    color: aliceblue;
+
+}
+
+.faqbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.faqbox>div {
+    margin: 5px auto;
+    color: aliceblue;
+    padding: 24px;
+    font-size: 24px;
+    background-color: rgb(40, 35, 35);
+    width: 900px;
+    cursor: pointer;
+}
+
+.again {
+    color: aliceblue;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.eww {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: auto;
+    border-radius: 7px;
+    color: aliceblue;
+}
+
+.eww :first-child {
+    background-color: rgba(46, 51, 56, 0);
+    font-size: 20px;
+    width: 400px;
+
+}
+
+.eww :nth-child(2) {
+    background-color: red;
+    color: aliceblue;
+    font-size: 30px;
+    border-radius: 7px;
+    padding: 10px;
+
+
+}
+
+::placeholder {
+    color: aliceblue;
+}
+
+input {
+    border-color: aliceblue;
+}
